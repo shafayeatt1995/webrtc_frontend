@@ -1,8 +1,8 @@
 const { API_URL, BASE_URL } = process.env;
 export default defineNuxtConfig({
-  nitro: { preset: "vercel" },
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
+  nitro: { preset: "vercel" },
 
   server: {
     host: process.env.HOST || "0.0.0.0",
