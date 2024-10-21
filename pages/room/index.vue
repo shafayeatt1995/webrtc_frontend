@@ -125,7 +125,6 @@ export default {
     },
     async remoteAnswer({ answer, sender, receiver }) {
       await setRemoteAnswer(answer);
-
       icecandidate();
     },
     async remoteIcecandidate(candidate) {
