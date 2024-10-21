@@ -23,7 +23,6 @@
         <div class="flex-1 bg-green-600">
           <video
             autoplay
-            muted
             playsinline
             :srcObject="remoteStream"
             class="size-full object-contain"
